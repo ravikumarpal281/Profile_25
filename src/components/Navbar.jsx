@@ -66,8 +66,7 @@ const Navbar = () => {
               duration={500}
               className="text-secondary font-bold text-xl font-mono cursor-pointer"
             >
-              AC <span className="text-lightslate"></span>{" "}
-              {/* Initials or Logo */}
+              <span className="text-lightslate"></span> {/* Initials or Logo */}
             </ScrollLink>
           </div>
 

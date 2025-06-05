@@ -9,7 +9,7 @@ const Footer = () => {
         {/* Social Links */}
         <div className="flex justify-center space-x-6 mb-4">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/ravikumarpal281"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-secondary transition-colors duration-300"
@@ -17,7 +17,7 @@ const Footer = () => {
             <FaGithub className="w-6 h-6" />
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/ravikumarpal/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-secondary transition-colors duration-300"
@@ -30,7 +30,7 @@ const Footer = () => {
           </a> */}
         </div>
         <p className="text-sm font-mono">
-          Designed & Built by Alex Chen {/* Replace with your name */}
+          Designed & Built by Ravi Kumar Pal {/* Replace with your name */}
         </p>
         <p className="text-xs mt-1">© {year}. All Rights Reserved.</p>
       </div>
