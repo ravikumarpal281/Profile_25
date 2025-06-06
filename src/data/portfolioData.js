@@ -53,9 +53,9 @@ export const skills = [
 
 export const experiences = [
   {
-    role: "Lead Software Developer",
-    company: "Innovatech Solutions Inc.",
-    years: "2019 - Present",
+    role: "Technology Lead",
+    company: "Yorkshire Building Society",
+    years: "2023 - Present",
     description: [
       "Lead a team of 8 developers in the design and implementation of microservices architecture for the company's flagship SaaS product.",
       "Architected and migrated legacy systems to AWS cloud, reducing operational costs by 30% and improving scalability.",
@@ -65,8 +65,28 @@ export const experiences = [
   },
   {
     role: "Senior Software Engineer",
-    company: "TechGenix Ltd.",
-    years: "2015 - 2019",
+    company: "Wipro Limited",
+    years: "2019 - 2023",
+    description: [
+      "Developed core backend services using Node.js, Express, and MongoDB for a high-traffic e-commerce platform.",
+      "Built responsive frontend features using React and Redux.",
+      "Contributed to database design and optimization (PostgreSQL).",
+    ],
+  },
+  {
+    role: "Lead Developer",
+    company: "Oottru Technologies",
+    years: "2016-2019",
+    description: [
+      "Developed core backend services using Node.js, Express, and MongoDB for a high-traffic e-commerce platform.",
+      "Built responsive frontend features using React and Redux.",
+      "Contributed to database design and optimization (PostgreSQL).",
+    ],
+  },
+  {
+    role: "Senior Systems Engineer",
+    company: "Infosys Technologies",
+    years: "2012-2016",
     description: [
       "Developed core backend services using Node.js, Express, and MongoDB for a high-traffic e-commerce platform.",
       "Built responsive frontend features using React and Redux.",
@@ -101,17 +121,11 @@ export const projects = [
 
 export const education = [
   {
-    degree: "M.S. in Computer Science",
-    institution: "Stanford University",
-    years: "2013 - 2015",
+    degree: "B Tech in Computer Science",
+    institution: "UP Technical University ",
+    years: "2007 - 2011",
     description:
       "Specialization in Artificial Intelligence and Distributed Systems.",
-  },
-  {
-    degree: "B.S. in Software Engineering",
-    institution: "University of California, Berkeley",
-    years: "2009 - 2013",
-    description: "Graduated with Honors.",
   },
 ];
 
