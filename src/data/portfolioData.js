@@ -145,10 +145,11 @@ export const certifications = [
 ];
 
 export const navigationLinks = [
-  { name: "About", to: "about" },
+  /*{ name: "About", to: "about" },*/
   { name: "Skills", to: "skills" },
   { name: "Experience", to: "experience" },
   { name: "Projects", to: "projects" },
   { name: "Education", to: "education" },
   { name: "Certifications", to: "certifications" },
+  { name: "Contact", to: "contact" },
 ];

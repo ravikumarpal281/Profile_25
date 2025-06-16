@@ -22,11 +22,20 @@ export default {
       },
       animation: {
         "fade-in-up": "fadeInUp 0.8s ease-out forwards",
+        "slow-spin": "spin 10s linear infinite", // For React icon
+        "slow-bob": "bob 3s ease-in-out infinite", // For Docker icon
+        "slow-pulse": "pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+        "slow-float": "bob 4s ease-in-out infinite",
       },
       keyframes: {
         fadeInUp: {
           "0%": { opacity: "0", transform: "translateY(20px)" },
           "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+        bob: {
+          // Keyframes for the bobbing animation
+          "0%, 100%": { transform: "translateY(-4px)" },
+          "50%": { transform: "translateY(4px)" },
         },
       },
     },

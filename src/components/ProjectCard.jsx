@@ -20,7 +20,11 @@ const ProjectCard = ({
       className="bg-darkslate/50 rounded-lg overflow-hidden shadow-lg flex flex-col transition-transform duration-300 ease-in-out hover:-translate-y-2 group"
       variants={cardVariants} // Will be animated by parent stagger
     >
-      <img src={imageUrl} alt={title} className="w-full h-48 object-cover" />
+      <img
+        src={imageUrl}
+        alt={title}
+        className="w-full h-48 object-cover transition-transform duration-500 ease-in-out group-hover:scale-105" // Adding group-hover effect
+      />
 
       <div className="p-5 flex flex-col flex-grow">
         <h3 className="text-xl font-semibold text-lightslate mb-2">{title}</h3>

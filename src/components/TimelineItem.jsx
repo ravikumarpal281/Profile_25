@@ -20,7 +20,13 @@ const TimelineItem = ({
     >
       {/* Timeline Line & Dot */}
       {!isLast && (
-        <div className="absolute left-0 sm:left-2 top-1 bottom-0 w-0.5 bg-darkslate"></div>
+        <motion.div
+          className="absolute left-0 sm:left-2 top-1 bottom-0 w-0.5 bg-darkslate origin-top" // Add origin-top
+          initial={{ scaleY: 0 }}
+          whileInView={{ scaleY: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.4, delay: 0.2 }}
+        ></motion.div>
       )}
       <div className="absolute left-[-4px] sm:left-[0px] top-[5px] w-4 h-4 bg-secondary rounded-full border-4 border-primary"></div>
 

@@ -18,6 +18,13 @@ const Navbar = () => {
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
+  // This function will be called by react-scroll when a new link becomes active
+  const handleSetActive = (to) => {
+    // Use history.pushState to update the URL without a page jump
+    // It changes the URL from yoursite.com to yoursite.com/#skills
+    history.pushState(null, null, `#${to}`);
+  };
+
   const linkProps = {
     spy: true,
     smooth: true,
@@ -27,6 +34,7 @@ const Navbar = () => {
       "cursor-pointer px-3 py-2 rounded hover:text-secondary transition-colors duration-300 font-mono text-sm",
     activeClass: "text-secondary", // Highlight active link
     onClick: () => setIsOpen(false), // Close menu on link click
+    onSetActive: handleSetActive,
   };
 
   const navVariants = {
@@ -65,6 +73,10 @@ const Navbar = () => {
               offset={-100}
               duration={500}
               className="text-secondary font-bold text-xl font-mono cursor-pointer"
+              onSetActive={() => {
+                // Special case for hero: clear the hash
+                history.pushState(null, null, window.location.pathname);
+              }}
             >
               <span className="text-lightslate"></span> {/* Initials or Logo */}
             </ScrollLink>
@@ -81,6 +93,12 @@ const Navbar = () => {
               <a
                 href="#contact" // Example contact link (adjust as needed)
                 className="button-primary ml-4 !px-4 !py-2" // Use button style
+                onClick={(e) => {
+                  e.preventDefault();
+                  scroller.scrollTo("contact", linkProps);
+                  handleSetActive("contact");
+                  setIsOpen(false);
+                }}
               >
                 Contact
               </a>
@@ -127,6 +145,12 @@ const Navbar = () => {
               <a
                 href="#contact"
                 className="button-primary mt-4 w-full text-center"
+                onClick={(e) => {
+                  e.preventDefault();
+                  scroller.scrollTo("contact", linkProps);
+                  handleSetActive("contact");
+                  setIsOpen(false);
+                }}
               >
                 Contact
               </a>

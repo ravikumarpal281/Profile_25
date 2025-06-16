@@ -50,6 +50,31 @@ const SkillCard = ({
     }
   };
 
+  // Determine which animation class to apply
+  const getAnimationClass = () => {
+    switch (name) {
+      case "React":
+      case "Kubernetes":
+      case "Springboot":
+        return "animate-slow-spin";
+      case "Docker":
+        return "animate-slow-bob";
+      // Add new cases here
+      case "Java":
+      case "Python":
+      case "SQL":
+      case "MongoDB":
+        return "animate-slow-pulse";
+      case "GCP":
+      case "Azure":
+      case "Openshift":
+      case "Terraform":
+        return "animate-slow-float"; // Using the same as bob but you could vary it
+      default:
+        return "";
+    }
+  };
+
   return (
     // Using variants passed from parent grid for staggered entry.
     // Reverted to taller height (h-36 md:h-40) and padding p-4 suitable for grid.
@@ -59,7 +84,7 @@ const SkillCard = ({
       whileHover={{ y: -5, scale: 1.05, transition: { duration: 0.2 } }} // Keep hover effect
     >
       <div
-        className="flex-shrink-0 flex items-center justify-center"
+        className={`flex-shrink-0 flex items-center justify-center ${getAnimationClass()}`}
         style={{ minHeight: "60px" }}
       >
         {" "}
