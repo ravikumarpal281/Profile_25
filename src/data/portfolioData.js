@@ -1,22 +1,16 @@
 import {
   FaReact,
-  FaNodeJs,
-  FaAws,
   FaDocker,
   FaGitAlt,
   FaPython,
   FaJava,
   FaMicrosoft,
+  FaHtml5,
+  FaCss3Alt,
 } from "react-icons/fa";
 import {
-  SiJavascript,
-  SiTypescript,
   SiKubernetes,
-  SiTerraform,
-  SiPostgresql,
   SiMongodb,
-  SiRedis,
-  SiGooglecloudspanner,
   SiGooglecloud,
   SiSpringboot,
   SiMysql,
@@ -27,22 +21,22 @@ import {
 
 export const profile = {
   name: "Ravi Kumar Pal",
-  title: "Lead Software Developer | Cloud Architect",
+  title: "Technology Lead | Lead Software Developer | Cloud Architect",
   summary:
-    "Highly motivated and results-oriented Lead Software Developer with 10+ years of experience designing, developing, and deploying scalable, high-performance web applications and distributed systems. Proven ability to lead engineering teams, architect robust solutions, and drive technical excellence. Passionate about cloud-native technologies, DevOps practices, and building intuitive user experiences.",
-  imageUrl: "/src/assets/profile.jpg", // Make sure path is correct relative to public or src
+    "A dynamic Technology Lead with 12 years of hands-on experience driving software projects from conception to deployment. I specialize in building and scaling back-end microservices using Java and Spring Boot, while also being proficient in front-end development with React. My technical leadership has been proven across diverse environments, from global corporations to fast-paced startups, consistently delivering high-quality software using Agile (TDD/BDD) practices. I am adept with modern DevOps tools like Docker and Kubernetes, cloud technologies such as GCP, and a range of databases including SQL (MySQL, Oracle) and NoSQL (MongoDB).",
+  imageUrl: "/src/assets/Ravi_profile.jpg",
 };
 
 export const skills = [
-  { name: "React", Icon: FaReact, category: "Frontend" },
-  { name: "Python", Icon: FaPython, category: "Backend/Scripting" },
   { name: "Java", Icon: FaJava, category: "Backend" },
   { name: "Springboot", Icon: SiSpringboot, category: "Backend" },
+  { name: "React", Icon: FaReact, category: "Frontend" },
+  { name: "HTML", Icon: FaHtml5, category: "Frontend" },
+  { name: "CSS", Icon: FaCss3Alt, category: "Frontend" },
   { name: "GCP", Icon: SiGooglecloud, category: "Cloud/DevOps" },
   { name: "Azure", Icon: FaMicrosoft, category: "Cloud/DevOps" },
   { name: "Docker", Icon: FaDocker, category: "Cloud/DevOps" },
   { name: "Kubernetes", Icon: SiKubernetes, category: "Cloud/DevOps" },
-  { name: "Terraform", Icon: SiTerraform, category: "Cloud/DevOps" },
   { name: "Openshift", Icon: SiRedhatopenshift, category: "Cloud/DevOps" },
   { name: "SQL", Icon: SiMysql, category: "Databases" },
   { name: "Oracle", Icon: SiOracle, category: "Databases" },
