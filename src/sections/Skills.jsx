@@ -40,7 +40,8 @@ const Skills = () => {
     "Backend",
     "Cloud & DevOps",
     "Databases",
-    "Tools",
+    "CI/CD",
+    "Observability",
     "Other",
   ];
 

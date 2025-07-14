@@ -38,7 +38,11 @@ const Certifications = () => {
                 Issued: {cert.year}
               </p>
               {/* Optional: Add credential ID or link if available */}
-              {/* {cert.credentialId && <p className="text-xs text-slate font-mono">ID: {cert.credentialId}</p>} */}
+              {
+                <p className="text-xs text-slate font-mono">
+                  Credential Id: {cert.credentialId}
+                </p>
+              }
             </div>
           </motion.li>
         ))}

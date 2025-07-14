@@ -90,8 +90,8 @@ const Hero = () => {
               spy={true}
               smooth={true}
               offset={-70}
-              duration={500}
-              className="button-primary mr-4"
+              duration={50}
+              className="button-primary mr-4 cursor-pointer"
             >
               View My Work
             </ScrollLink>
@@ -99,7 +99,7 @@ const Hero = () => {
               href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="button-primary !border-slate !text-slate hover:!bg-slate/10"
+              className="button-primary mr-4"
             >
               Resume
             </a>

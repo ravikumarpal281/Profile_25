@@ -4,7 +4,7 @@ import Section from "../components/Section";
 import { motion } from "framer-motion";
 
 const Contact = () => {
-  const email = "your.email@example.com"; // Replace with your email from portfolioData
+  const email = "ravikumarpal281@gmail.com"; // Replace with your email from portfolioData
 
   return (
     <Section
@@ -24,7 +24,11 @@ const Contact = () => {
           Whether you have a question or just want to say hi, I'll do my best to
           get back to you!
         </p>
-        <a href={`mailto:${email}`} className="button-primary text-base">
+        <a
+          href={`mailto:${email}`}
+          target="_blank"
+          className="button-primary text-base"
+        >
           Say Hello
         </a>
       </motion.div>

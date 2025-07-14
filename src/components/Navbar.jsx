@@ -29,7 +29,7 @@ const Navbar = () => {
     spy: true,
     smooth: true,
     offset: -70, // Adjust offset based on your navbar height
-    duration: 500,
+    duration: 100,
     className:
       "cursor-pointer px-3 py-2 rounded hover:text-secondary transition-colors duration-300 font-mono text-sm",
     activeClass: "text-secondary", // Highlight active link
@@ -71,14 +71,15 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               offset={-100}
-              duration={500}
+              duration={50}
               className="text-secondary font-bold text-xl font-mono cursor-pointer"
               onSetActive={() => {
                 // Special case for hero: clear the hash
                 history.pushState(null, null, window.location.pathname);
               }}
             >
-              <span className="text-lightslate"></span> {/* Initials or Logo */}
+              <span className="text-lightslate">RP</span>{" "}
+              {/* Initials or Logo */}
             </ScrollLink>
           </div>
 
@@ -90,7 +91,7 @@ const Navbar = () => {
                   {link.name}
                 </ScrollLink>
               ))}
-              <a
+              {/* <a
                 href="#contact" // Example contact link (adjust as needed)
                 className="button-primary ml-4 !px-4 !py-2" // Use button style
                 onClick={(e) => {
@@ -101,7 +102,7 @@ const Navbar = () => {
                 }}
               >
                 Contact
-              </a>
+              </a>  */}
             </div>
           </div>
 

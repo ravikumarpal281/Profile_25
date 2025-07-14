@@ -56,11 +56,14 @@ const SkillCard = ({
       case "React":
       case "Kubernetes":
       case "Springboot":
+      case "Grafana":
         return "animate-slow-spin";
       case "Docker":
+      case "Kibana":
+      case "Java":
         return "animate-slow-bob";
       // Add new cases here
-      case "Java":
+
       case "Python":
       case "SQL":
       case "MongoDB":
@@ -69,6 +72,9 @@ const SkillCard = ({
       case "Azure":
       case "Openshift":
       case "Terraform":
+      case "Dynatrace":
+      case "Prometheus":
+      case "Grafana":
         return "animate-slow-float"; // Using the same as bob but you could vary it
       default:
         return "";
