@@ -28,7 +28,7 @@ export const profile = {
   title: "Technology Lead | Lead Software Developer | Cloud Developer",
   summary:
     "A dynamic Technology Lead with 12 years of hands-on experience driving software projects from conception to deployment. I specialize in building and scaling back-end microservices using Java and Spring Boot, while also being proficient in front-end development with React. My technical leadership has been proven across diverse environments, from global corporations to fast-paced startups, consistently delivering high-quality software using Agile (TDD/BDD) practices. I am adept with modern DevOps tools like Docker and Kubernetes, cloud technologies such as GCP, and a range of databases including SQL (MySQL, Oracle) and NoSQL (MongoDB).",
-  imageUrl: "src/assets/Ravi_profile.jpg",
+  imageUrl: "/src/assets/Ravi_profile.jpg",
 };
 
 export const skills = [
