@@ -28,7 +28,7 @@ export const profile = {
   title: "Technology Lead | Lead Software Developer | Cloud Developer",
   summary:
     "A dynamic Technology Lead with 12 years of hands-on experience driving software projects from conception to deployment. I specialize in building and scaling back-end microservices using Java and Spring Boot, while also being proficient in front-end development with React. My technical leadership has been proven across diverse environments, from global corporations to fast-paced startups, consistently delivering high-quality software using Agile (TDD/BDD) practices. I am adept with modern DevOps tools like Docker and Kubernetes, cloud technologies such as GCP, and a range of databases including SQL (MySQL, Oracle) and NoSQL (MongoDB).",
-  imageUrl: "/src/assets/ravi_profile_one.jpg",
+  imageUrl: "ravi_profile_one.jpg",
 };
 
 export const skills = [
@@ -117,7 +117,7 @@ export const projects = [
       "Docker",
       "Openshift Kubernetes",
     ],
-    imageUrl: "/src/assets/ybs_logo_one.jpg", // Replace with actual image URL or path
+    imageUrl: "ybs_logo_one.jpg", // Replace with actual image URL or path
     liveUrl:
       "https://apps.apple.com/gb/app/yorkshire-building-society/id1482620004",
     repoUrl: "#", // Optional link to code repository
@@ -127,7 +127,7 @@ export const projects = [
     description:
       "Developed a mobile application to design, cut or draw by connecting to Cricut Machine.",
     technologies: ["Android", "iOS", "Docker", "Spring Boot", "Microservices"],
-    imageUrl: "/src/assets/cricut_logo_one.png",
+    imageUrl: "cricut_logo_one.png",
     liveUrl: "https://apps.apple.com/gb/app/cricut-design-space/id749471884",
     repoUrl: "#",
   },
