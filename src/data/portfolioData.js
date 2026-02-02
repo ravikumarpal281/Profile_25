@@ -28,7 +28,7 @@ export const profile = {
   title: "Technology Lead | Lead Software Developer | Cloud Developer",
   summary:
     "A dynamic Technology Lead with 12 years of hands-on experience driving software projects from conception to deployment. I specialize in building and scaling back-end microservices using Java and Spring Boot, while also being proficient in front-end development with React. My technical leadership has been proven across diverse environments, from global corporations to fast-paced startups, consistently delivering high-quality software using Agile (TDD/BDD) practices. I am adept with modern DevOps tools like Docker and Kubernetes, cloud technologies such as GCP, and a range of databases including SQL (MySQL, Oracle) and NoSQL (MongoDB).",
-  imageUrl: "ravi_profile_one.jpg",
+  imageUrl: "Ravi_GG03.jpeg",
 };
 
 export const skills = [
@@ -38,7 +38,6 @@ export const skills = [
   { name: "HTML", Icon: FaHtml5, category: "Frontend" },
   { name: "CSS", Icon: FaCss3Alt, category: "Frontend" },
   { name: "GCP", Icon: SiGooglecloud, category: "Cloud/DevOps" },
-  { name: "Azure", Icon: FaMicrosoft, category: "Cloud/DevOps" },
   { name: "Docker", Icon: FaDocker, category: "Cloud/DevOps" },
   { name: "Kubernetes", Icon: SiKubernetes, category: "Cloud/DevOps" },
   { name: "Openshift", Icon: SiRedhatopenshift, category: "Cloud/DevOps" },
@@ -58,7 +57,7 @@ export const experiences = [
   {
     role: "Technology Lead",
     company: "Yorkshire Building Society",
-    years: "2023 - Present",
+    years: "2023 - 2025",
     description: [
       "Guided and mentored a team of 8 engineers, fostering best practices in coding, testing, and system design while collaborating effectively with architects and other teams.",
       "Owned the translation of high-level architectural requirements into detailed, scalable, and resilient low-level designs for core backend microservices.",

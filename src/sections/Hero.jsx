@@ -96,7 +96,8 @@ const Hero = () => {
               View My Work
             </ScrollLink>
             <a
-              href="/resume.pdf"
+              href="/RAVIKUMARPAL.pdf"
+              download="Ravi_Kumar_Pal_CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="button-primary mr-4"
